@@ -1,12 +1,33 @@
 <!doctype html>
 <head>
 	<meta charset="utf-8">
-	<title>开心每一天</title>
-	<link rel="stylesheet" type="text/css" href="/test_css.css"
+	<title>留言板</title>
+	<!-- <link rel="stylesheet" type="text/css" href="/test_css.css"> -->
+	<style >
+		/*<!-- 编写css语句 -->*/
+		
+		
+	
+	</style>
 </head>
 <body>
-	<div id="qq">
-		<td>hehe</td>
-		<input type="text">
+	<div class='wrap'>
+		<form action="/test_html1.php" method="post">
+			<div class='add'>
+				<textarea class='content' cols='50' rows='5' name="user" ></textarea>
+				<input classs='user' name="body" type="text" />
+				<input class='btn' type="submit" value="提交" />
+			</div>
+		</form>
+		<!--查看留言-->
+		<div class ='msg'>
+			<div class='info'>
+				<span class='user'>用户名</span>
+			</div>>
+		</div>
 	</div>
+
 </body>
+
+
+
